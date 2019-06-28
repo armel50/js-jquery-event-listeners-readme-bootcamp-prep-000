@@ -8,7 +8,7 @@ $(document).ready(function(){
 function getIt(){
   var pTag = $("p");
   pTag.on("click",function(){
-    alert("Hey!")
+    alert("Hey!");
   });
 }
 
