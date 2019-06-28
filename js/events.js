@@ -22,9 +22,17 @@ function frameIt(){
 function pressIt(){
   var input = $("input");
   input.on("keydown",function(e){
-    if(e.which ===){
-      alert("G key pressed")
+    if(e.which ===71){
+      alert("G key pressed");
     }
   });
 }
+
+function submitIt(){
+  var form = $("form");
+  form.on("submit",function(){
+    alert("")
+  });
+}
+
 });
