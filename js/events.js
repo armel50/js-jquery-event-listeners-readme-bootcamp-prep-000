@@ -12,4 +12,11 @@ function getIt(){
   });
 }
 
+function frameIt(){
+  var image = $("img");
+  image.on("load",function(){
+    image.cls
+  });
+}
+
 });
